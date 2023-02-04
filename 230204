@@ -1,5 +1,14 @@
 오늘 배운 내용
+배열 원소의 길이 찾는 방법
 
+원래 생각했던 방법/ 간단하게 for문 구현이랑 쉽게 할 수 있었다.  
+for i in 0...strlist.count{
+result.append(strlist[i].count)
+}
+
+for i in strlist{
+        result.append(i.count)
+    }
 
 
 어려웠던 내용
@@ -12,3 +21,4 @@
   
 
 느낀점
+for문에 대해 다양한 예시로 공부가 필요하다. 쉬운 문제를 쉽게 알아차리고 쉽게 풀어야하는데 아직은 조금 노력이 더 필요하다.
