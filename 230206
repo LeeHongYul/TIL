@@ -25,12 +25,28 @@ print(getInclination(dots[0], dots[2]))
         return Float(y1 - y0) / Float(x1 - x0)
     }
 
+Closures
+
+문법 최적화
+
+1. 파라미터 형식와 리턴 형식 생략 가능
+2. 파라미터 이름, in 생략하고 shorthand argument 으로 대체
+3. 단일 리턴문이라면 생략
+4. 클로저가 마지막 파라미터라면 trailing closures로 작성한다
+5. 괄호안에 파라미터 레이블 생략 후 괄호 삭제
+
+Tuple Decompositon: 투플에 저장된 멤버를 개별 상수나 개별 변수에 저장하는 방법
+Tuple Matching: 
+if문으로 사용해도 되지만 switch문으로 했을때 조합할수 있는게 많음(let, where), 가독성도 좋음
+
+
 어려웠던 내용
 2차원 배열의 x1,x2 원소에 대한 접근 방법을 몰랐었다.
 
 
 부족한 내용/ 해결 못한 내용
-
-
+간단하게 AlamoFire,Realm,CoreData 개념에 대하여 공부해봤다. 아직까지 각 특징, 어떤 앱에 사용해야하는지는 부족.
+Capturing Values, Autoclosure
 
 느낀점
+Closures에 대해 공부를 했다, 다양한 방법으로 사용할 수 있는 클로져 공부가 더 필요해 보이고, 매우 중요해 보인다. 클로저의 각 특징으 이해 못하면 코드를 간단하게
