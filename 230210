@@ -1,0 +1,11 @@
+오늘 배운점
+text: declaration 
+var text: String? {get set} // text받은 String문자는 옵셔널이라서 Int으로 형변환을 할때 Int(text!) 느낌표가 필요했다.
+
+배열에서 문자열로 변환 시킬려면 .joined을 사용했다.
+
+어려웠던 점
+
+해결못한 점
+
+느낌점
